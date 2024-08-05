@@ -1,6 +1,6 @@
-import Image from "next/image";
+/*import Image from "next/image";*/
 
-export default function Home() {
+/*export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -110,4 +110,22 @@ export default function Home() {
       </div>
     </main>
   );
+}*/
+
+
+import { UserButton } from '@clerk/nextjs'
+import React from 'react'
+import { useClerk } from '@clerk/nextjs';
+
+
+const Home = () => {
+  return (
+    <div>
+      <p>
+        home
+      </p>
+    </div>
+  )
 }
+
+export default Home
